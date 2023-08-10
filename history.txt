@@ -1,0 +1,135 @@
+    1  history -r
+    2  history -w
+    3  history -n 1
+    4  history > history.txt
+    5  git status
+    6  git add history.txt 
+    7  git commit -m "first attempt at history restoration"
+    8  git push
+    9  ls
+   10  cd Documents/
+   11  cd umuzi_learnership/
+   12  mkdir git-basic-exercises
+   13  cd git-basic-exercises/
+   14  git init
+   15  ls
+   16  ls -a
+   17  touch README.md
+   18  nano README.md 
+   19  git add README.md 
+   20  git commit -m "initial commit"
+   21  nano README.md 
+   22  git status
+   23  git add README.md 
+   24  git commit -m "second commit"
+   25  nano README.md 
+   26  git status
+   27  git add README.md 
+   28  git commit - "third commit"
+   29  git commit -m "third commit"
+   30  git log
+   31  git checkout main
+   32  git branch milkshake-flavours
+   33  git checkout milkshake-flavours
+   34  nano milkshakes.md
+   35  git status
+   36  git add milkshakes.md 
+   37  git commit -m "added initial flavours"
+   38  git checkout main
+   39  git branch history
+   40  git checkout history
+   41  history > history.txt
+   42  git status
+   43  git add history.txt 
+   44  git commit -m "added history"
+   45  git checkout milkshake-flavours
+   46  nano README.md 
+   47  git status
+   48  nano README.md 
+   49  git status
+   50  git add README.md 
+   51  git commit -m "random readme changes"
+   52  git checkout history
+   53  cat README.md 
+   54  rm README.md 
+   55  echo "booya" > README.md
+   56  git status
+   57  git add README.md 
+   58  git commit -m "rewrote readme"
+   59  git checkout main
+   60  ls
+   61  git log
+   62  git checkout milkshake-flavours
+   63  ls
+   64  git log
+   65  git checkout history
+   66  ls
+   67  git log
+   68  git checkout main
+   69  git merge milkshake-flavours
+   70  git merge history
+   71  nano README.md 
+   72  git merge history
+   73  git status
+   74  git add README.md 
+   75  git status
+   76  git commit -m "resolved merge conflict"
+   77  git status
+   78  git merge history
+   79  ls
+   80  git log
+   81  git checkout history
+   82  ls
+   83  git log
+   84  git checkout milkshake-flavours
+   85  ls
+   86  git log
+   87  git checkout history
+   88  git merge main
+   89  ls
+   90  git log
+   91  git remote add origin https://github.com/ACodingSunflower/git-basic-exercises.git
+   92  git branch -M main
+   93  git push -u origin main
+   94  git checkout main
+   95  git push
+   96  git checkout history
+   97  git checkout milkshake-flavours
+   98  git push
+   99  cd ..
+  100  ls
+  101  ls
+  102  clear
+  103  cd ..
+  104  ls
+  105  cd Documents/
+  106  ls
+  107  cd umuzi_learnership/
+  108  ls
+  109  ls -a
+  110  mkdir git-basic-exercises
+  111  cd git-basic-exercises/
+  112  ls
+  113  ls -a
+  114  git init
+  115  ls -a
+  116  touch README.md
+  117  nano README.md 
+  118  git status
+  119  git add README.md 
+  120  git commit -m "initial commit"
+  121  nano README.md 
+  122  git add README.md 
+  123  git commit -m "second commit"
+  124  nano README.md 
+  125  git add README.md 
+  126  git commit -m "third commit"
+  127  git branch milkshake-flavours
+  128  git checkout milkshake-flavours
+  129  nano milkshake.md
+  130  git add milkshake.md 
+  131  git commit -m "added initial flavours"
+  132  git checkout main
+  133  git branch history
+  134  git checkout history
+  135  history > history.txt
